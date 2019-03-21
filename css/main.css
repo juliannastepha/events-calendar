@@ -1,1 +1,41 @@
-font-family: 'Merriweather', serif;
+html {
+  font-family: Merriweather, serif;
+}
+
+.event {
+  border: 1px;
+  border-radius: 8px;
+}
+
+.event-grey {
+  color: #333;
+  border-color: #666;
+  background-color: #ccc;
+}
+
+.event-green {
+  color: #51603f;
+  border-color: #6b7e54;
+  background-color: #d1e0bf;
+}
+
+.event-red {
+  color: #991919;
+  border-color: #b92828;
+  background-color: #f2bcbc;
+}
+
+.event-blue {
+  color: #38448e;
+  border-color: #1d38da;
+  background-color: #d2d6f0;
+}
+
+td,
+th {
+  border: 1px solid #f2f2f2;
+}
+
+td {
+  height: 10rem;
+}
